@@ -47,3 +47,10 @@ var server = ws.createServer(function(conn) {
 		console.log(message);
 	});
 }).listen(8091);
+var static = require('node-static');
+var file = new static.Server('./web');
+require('http').createServer(function(request, response) {
+	request.addListener('end', function() {
+		file.serve(request, response);
+	}).resume();
+}).listen(8080);
