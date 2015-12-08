@@ -1,14 +1,15 @@
 {
   "name": "websocket",
   "version": "1.0.0",
-  "description": "a websocket implementation for realtime monitor in twitter",
+  "description": "a websocket implementation for realtime monitor from kafka",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
   "keywords": [
     "websocket",
-    "soketio"
+    "kafka",
+    "realtime"
   ],
   "author": "Mateus Freira",
   "license": "ISC",

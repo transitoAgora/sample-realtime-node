@@ -4,10 +4,12 @@
   "authors": [
     "Mateus Freira <mateus.freira@gmail.com>"
   ],
-  "description": "a simple implementation of realtime monitoring from twitter",
+  "description": "a simple implementation of realtime monitoring from kafka",
   "main": "score.js",
   "moduleType": [],
   "keywords": [
+    "websocket",
+    "kafka",
     "realtime"
   ],
   "license": "MIT",
