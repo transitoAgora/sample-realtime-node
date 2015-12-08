@@ -1,0 +1,20 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "a websocket implementation for realtime monitor in twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "websocket",
+    "soketio"
+  ],
+  "author": "Mateus Freira",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^0.2.29",
+    "lodash": "^3.10.1",
+    "nodejs-websocket": "^1.4.0"
+  }
+}
